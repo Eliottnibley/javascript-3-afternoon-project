@@ -70,7 +70,10 @@ let totalPopulation = obj => {
   Push these new variables to an array and return the array. 
 */
 
-//Code Here
+let ingredients = obj => {
+  let {carb, fat, protein} = obj
+  return [carb, fat, protein]
+}
 
 
 
@@ -88,7 +91,9 @@ let totalPopulation = obj => {
   Find the smallest number of the three and return that number.
 */
 
-//Code Here
+let largeNumbers = ({first, second, third}) => {
+  return Math.min(first, second, third)
+}
 
 
 
@@ -100,6 +105,16 @@ let totalPopulation = obj => {
   Find the longest array and return that array.
 */
 
-//Code Here
+let numberGroups = ({a, b, c}) => {
+  if (a.length > b.length && a.length > c.length){
+    return a
+  }
+  else if (b.length > c.length){
+    return b
+  }
+  else {
+    return c
+  }
+}
 
 
