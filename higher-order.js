@@ -143,6 +143,6 @@ let bobsTotal = purchases.reduce((acc, elem) => {
   }
   
 }, 0)
-console.log(bobsTotal)
+
 
 
